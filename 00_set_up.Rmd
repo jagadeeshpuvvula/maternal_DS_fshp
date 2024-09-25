@@ -1,0 +1,14 @@
+---
+title: "00_setup"
+author: "Puvvula"
+date: "2024-09-25"
+output: pdf_document
+---
+
+```{r}
+install.packages("DatabaseConnector")
+install.packages("SqlRender")
+devtools::install_github("OHDSI/CommonDataModel")
+```
+
+
